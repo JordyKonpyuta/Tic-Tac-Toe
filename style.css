@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    background: radial-gradient(#2D15F5, #0A0782);
+    min-height: 100vh;
+}
+body {
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case
+{
+    border: 3px solid white;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+#recommencer{
+    background: blue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-radius: 8px;
+}
